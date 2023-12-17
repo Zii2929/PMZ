@@ -1,0 +1,133 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fdfbfb;
+    color: #00165f;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7b71d6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #662200;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #884422;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #884422;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #662200;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #662200;
+    color: #886df1;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #884422;
+}
+
+.home {
+    background-color: #c0ffee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.home h2 {
+    color: #662200;
+}
+
+.about {
+    margin-top: 40px;
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about h2 {
+    color: #662200;
+}
+
+.about p {
+    color: #333;
+}
+
+.Achievements {
+    margin: 40px 0;
+}
+
+.Achievements img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Achievements h3 {
+    color: #662200;
+}
+
+.contact {
+    background-color: #c0ffee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #662200;
+}
+
+footer {
+    background-color: #884422;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+}
